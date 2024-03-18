@@ -1,7 +1,22 @@
+/*Google fonts*/ 
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+h1, h2, h3 {
+    font-family: "Chivo", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 header {
@@ -11,15 +26,21 @@ header {
 }
 header a {
     text-decoration: none;
+    color: inherit;
+    padding: 0 1rem;
+}
+header h1 {
+    font-size: 100%;
 }
 main {
     background-color: aquamarine;
     display: flex;
     flex: 1 0 auto;
 }
-nav li {
+#nav-links li {
     display: block;
     text-decoration: none;
+
 }
 footer {
     background-color: darkgreen;
