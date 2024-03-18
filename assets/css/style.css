@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: chocolate;
+    display: flex;
+    width: 100%;
+}
+header a {
+    text-decoration: none;
+}
+main {
+    background-color: aquamarine;
+    display: flex;
+    flex: 1 0 auto;
+}
+nav li {
+    display: block;
+    text-decoration: none;
+}
+footer {
+    background-color: darkgreen;
+    display: flex;
+}
