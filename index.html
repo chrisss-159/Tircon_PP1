@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Meta description and keywords-->
     <meta name="description" content="A quick guide to Donegal's hidden gems">
-    <meta name="keywords" content="staycation, Donegal, north west, wild, atlantic way">
+    <meta name="keywords" content="staycation, Donegal, north west, wild, atlantic way, travel guide">
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -19,11 +19,15 @@
 <body>
   <header>
     <a href="index.html">
-        <h1>Gems of Donegal</h1>
+        <h1 id="title">Hills of Donegal</h1>
     </a>
-    
-    <nav id="nav-links">
-        <ul>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+
+    <nav>
+        <ul id="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="guide.html">Guide</a></li>
           <li><a href="newsletter.html">Newsletter</a></li>

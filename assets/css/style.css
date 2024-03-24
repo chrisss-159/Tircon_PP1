@@ -21,21 +21,26 @@ h1, h2, h3 {
 
 header {
     background-color: chocolate;
-    display: flex;
     width: 100%;
+    padding: 0 1rem;
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 header a {
     text-decoration: none;
     color: inherit;
-    padding: 0 1rem;
 }
 header h1 {
-    font-size: 100%;
+    font-size: 150%;
 }
 main {
     background-color: aquamarine;
     display: flex;
     flex: 1 0 auto;
+    margin-top: 60px;
 }
 #nav-links li {
     display: block;
