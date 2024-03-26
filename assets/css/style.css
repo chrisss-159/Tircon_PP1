@@ -1,5 +1,5 @@
 /*Google fonts*/ 
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +10,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: "Ysabeau Office", sans-serif;
 }
 
 h1, h2, h3 {
@@ -20,12 +21,13 @@ h1, h2, h3 {
 }
 
 header {
-    background-color: chocolate;
+    background-color: #ffffff;
     width: 100%;
     padding: 0 1rem;
     z-index: 99;
     position: fixed;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -40,13 +42,16 @@ main {
     background-color: aquamarine;
     display: flex;
     flex: 1 0 auto;
-    margin-top: 60px;
+    margin-top: 80px;
 }
-#nav-links li {
-    display: block;
-    text-decoration: none;
 
+.nav-links li {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    
 }
+
 footer {
     background-color: darkgreen;
     display: flex;
