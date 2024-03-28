@@ -20,6 +20,7 @@ h1, h2, h3 {
     color: #252525;
 }
 
+/* Header - Love running code*/
 header {
     background-color: #ffffff;
     width: 100%;
@@ -30,6 +31,8 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
+    top: 1rem;
+    box-shadow: 0 2px 2px;
 }
 header a {
     text-decoration: none;
@@ -42,17 +45,57 @@ main {
     background-color: aquamarine;
     display: flex;
     flex: 1 0 auto;
-    margin-top: 80px;
+    margin-top: 65px;
 }
 
-.nav-links li {
+/* Menu - Love running code*/
+nav {
     text-decoration: none;
-    list-style-type: none;
-    display: flex;
+    position: relative;
+    width: fit-content;
     
+}
+
+#navvi {
+    display: flex;
+}
+
+#navvi > li {
+    display: block;
+    list-style-type: none;
+    padding-right: 2rem;
 }
 
 footer {
     background-color: darkgreen;
     display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    #navvi > li {
+        font-size: 125%;
+    }
+
+    main {
+        margin-top: 46px;
+    }
+
+    
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        display: flex;
+    }
 }
