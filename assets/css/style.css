@@ -48,6 +48,27 @@ main {
     margin-top: 65px;
 }
 
+/* Cover image - Adpated from Love running*/
+#cover-img {
+    height: 550px;
+    width: 100%;
+    background:url("../images/cover-img.png") no-repeat 25% center/cover;
+    position: relative;
+}
+
+#cover-text {
+    position: absolute;
+    background-color: rgba(181, 227, 175, 0.5);
+    border-radius: 50%;
+    font-size: 100%;
+    width: 80%;
+    min-height: 100px;
+    top: 100px;
+    padding: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
 /* Menu - Love running code*/
 nav {
     text-decoration: none;
@@ -61,9 +82,11 @@ nav {
 }
 
 #navvi > li {
+    color: #ffffff;
     display: block;
     list-style-type: none;
     padding-right: 2rem;
+    background-color: #738571;
 }
 
 footer {
