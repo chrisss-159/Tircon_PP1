@@ -16,7 +16,7 @@ body {
 h1, h2, h3 {
     font-family: "Chivo", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     color: #252525;
 }
 
@@ -24,15 +24,18 @@ h1, h2, h3 {
 header {
     background-color: #ffffff;
     width: 100%;
-    padding: 0 1rem;
     z-index: 99;
     position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
-    top: 1rem;
+    top: 0.75rem;
     box-shadow: 0 2px 2px;
+}
+
+.pad{
+    padding: 0 1rem;
 }
 header a {
     text-decoration: none;
@@ -74,7 +77,12 @@ nav {
     text-decoration: none;
     position: relative;
     width: fit-content;
-    
+    width: 100%;
+}
+
+#banner {
+    background-color: #738571;
+    display: flex;
 }
 
 #navvi {
@@ -86,7 +94,6 @@ nav {
     display: block;
     list-style-type: none;
     padding-right: 2rem;
-    background-color: #738571;
 }
 
 footer {
