@@ -30,7 +30,6 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
-    top: 0.75rem;
     box-shadow: 0 2px 2px;
 }
 
@@ -45,8 +44,9 @@ header h1 {
     font-size: 150%;
 }
 main {
-    background-color: aquamarine;
+    background-color: #ffffff;
     display: flex;
+    flex-direction: column;
     flex: 1 0 auto;
     margin-top: 65px;
 }
@@ -96,6 +96,48 @@ nav {
     padding-right: 2rem;
 }
 
+.section-title {
+    background-color: #738571;
+}
+
+.section-title > h2 {
+    color: #fafafab8;
+    margin: 10px;
+    text-align: center;
+    font-size: 140%;
+}
+
+#locale-img {
+    height: 300px;
+    width: 100%;
+    background:url("../images/isle.jpeg") no-repeat center center/cover;
+    position: relative;
+}
+
+#textbox {
+    display: flex;
+}
+
+#text-img > p {
+    top: 20px;
+    left: 20px;
+    padding: 5px 10px;
+    color: #ffffff;
+    font-size: 120%;
+    position: relative;
+    width: 80%;
+    background-color: rgba(115, 133, 113, 0.5);
+    border-radius: 20%;
+    flex-direction: column;
+}
+
+#pin-drop h3 {
+    text-transform: lowercase;
+    position: relative;
+    font-size: 100%;
+    
+}
+
 footer {
     background-color: darkgreen;
     display: flex;
@@ -134,7 +176,12 @@ footer {
         display: flex;
     }
 
+    nav {
+        position: relative;
+        width: 20%;
+    }
+
     #cover-text {
-        width: 30%;
+        width: 25%;
     }
 }
