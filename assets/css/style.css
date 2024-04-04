@@ -116,6 +116,7 @@ nav {
 
 #textbox {
     display: flex;
+    flex-direction: column;
 }
 
 #text-img > p {
@@ -128,14 +129,12 @@ nav {
     width: 80%;
     background-color: rgba(115, 133, 113, 0.5);
     border-radius: 20%;
-    flex-direction: column;
 }
 
 #pin-drop h3 {
-    text-transform: lowercase;
     position: relative;
     font-size: 100%;
-    
+    flex-basis: 100px;
 }
 
 footer {
@@ -174,6 +173,7 @@ footer {
 @media screen and (min-width: 992px) {
     header {
         display: flex;
+        width: 200%;
     }
 
     nav {
@@ -183,5 +183,9 @@ footer {
 
     #cover-text {
         width: 25%;
+    }
+
+    main {
+        margin-top: 30px;
     }
 }
