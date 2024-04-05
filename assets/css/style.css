@@ -127,7 +127,8 @@ nav {
 #text-img > p {
     top: 20px;
     left: 20px;
-    padding: 5px 10px;
+    padding: 15px;
+    text-align: center;
     color: #fafafa;
     font-size: 120%;
     position: relative;
@@ -145,6 +146,56 @@ nav {
     left: 10px;
 }
 
+#pin-drop a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+#guide {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cliff{
+    height: 300px;
+    width: 100%;
+    background:url("../images/slieve.jpeg") no-repeat center center/cover;
+    border: 2px solid #738571;
+}
+
+.light {
+    height: 300px;
+    width: 100%;
+    background:url("../images/fanad.jpeg") no-repeat center center/cover;
+    border: 2px solid #738571;
+}
+
+.valley {
+    height: 300px;
+    width: 100%;
+    background:url("../images/glengesh.jpeg") no-repeat center center/cover;
+    border: 2px solid #738571;
+}
+
+.park {
+    height: 300px;
+    width: 100%;
+    background:url("../images/glen.webp") no-repeat center center/cover;
+    border: 2px solid #738571;
+}
+
+.guide-name {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.guide-name a {
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+/* Social Media Icons - Love Running*/
 #socials {
     padding: 10px 0;
     list-style-type: none;
@@ -178,7 +229,7 @@ footer {
 
     nav {
         position: relative;
-        width: 35%;
+        width: 38%;
     }
 
     #navvi > li {
@@ -187,6 +238,10 @@ footer {
 
     main {
         margin-top: 43px;
+    }
+
+    #locale-img {
+        width: 100%;
     }
 
 }
@@ -200,7 +255,7 @@ footer {
 
     nav {
         position: relative;
-        width: 30%;
+        width: 40%;
     }
 
     #cover-text {
@@ -209,5 +264,9 @@ footer {
 
     main {
         margin-top: 30px;
+    }
+
+    #locale-img {
+        width: 60%;
     }
 }
