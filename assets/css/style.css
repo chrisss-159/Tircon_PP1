@@ -127,7 +127,7 @@ nav {
 #text-img > p {
     top: 20px;
     left: 20px;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     color: #fafafa;
     font-size: 120%;
@@ -210,6 +210,44 @@ nav {
     color: #3a3a3a;
 }
 
+#signup h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/*Form - Love Running*/
+
+#signup-form {
+    color:#ffffff;
+    background-color: rgba(115, 133, 113, 0.5);
+    padding: 30px;
+}
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    margin: 5px 0 20px 0;
+    border-radius: 2px;
+    height: 25px;
+    width: 100%;
+    padding:0 5px;
+}
+
+#radio-buttons {
+    size: 100%;
+    display: flex;  
+    justify-content: space-between;
+}
+
+.join-button {
+    color: #fafafa;
+    background-color: #454b1b;
+    font-size: 100%;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding:15px 32px;
+}
+
 footer {
     background-color: #738571;
     display: flex;
@@ -244,6 +282,20 @@ footer {
         width: 100%;
     }
 
+    /*Form - Love Running*/
+    #news {
+        background-position: center;
+        position: relative;
+        padding: 0 35%;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: relative;
+        border-radius: 25px;
+        margin: 10px 0;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -267,6 +319,13 @@ footer {
     }
 
     #locale-img {
-        width: 60%;
+        width: 100%;
+        display: flex;
+    }
+
+    #guide {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
     }
 }

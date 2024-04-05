@@ -53,7 +53,7 @@
         </div>
         <div id="pin-drop">
           <h3><i class="fa-solid fa-location-dot"></i><a href="https://en.wikipedia.org/wiki/Tory_Island">
-            Tory Island</a></h3>
+              Tory Island</a></h3>
         </div>
       </div>
     </section>
@@ -76,6 +76,36 @@
           <h3 class="guide-name"><a href="https://www.nationalparks.ie/glenveagh/">Glenveagh National Park</a></h3>
         </div>
       </div>
+    </section>
+    <!--Form section-->
+    <div class="section-title">
+      <h2>Stay in the Loop</h2>
+    </div>
+    <section id="news">
+      <form method="post" action="https://formdump.codeinstitute.net" id="signup-form">
+        <h2>Sign up to our weekly newsletter!</h2>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" class="text-input" required><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" class="text-input" required><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" class="text-input" required><br>
+        <div id="radio-buttons">
+          <div>
+            <input type="radio" id="land" name="journey-prefer" value="land" required checked>
+            <label for="land">Land</label>
+          </div>
+          <div>
+            <input type="radio" id="sea" name="journey-prefer" value="sea" required>
+            <label for="sea">Sea</label>
+          </div>
+          <div>
+            <input type="radio" id="both" name="journey-prefer" value="both" required>
+            <label for="both">Both</label>
+          </div>
+        </div>
+        <button class="join-button" type="submit">Send</button>
+      </form>
     </section>
   </main>
   <!--Footer and Socials - Love Running-->
